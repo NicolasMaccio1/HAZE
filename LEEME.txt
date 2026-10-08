@@ -1,0 +1,58 @@
+HAZE — TU PÁGINA WEB
+====================
+
+Esta carpeta es tu página completa. Es tuya: la podés subir a internet, copiar y cambiar cuando quieras.
+
+Qué hay adentro
+---------------
+- index.html  → la página
+- app.js      → la tienda (productos, talles, WhatsApp, cuenta regresiva)
+- img/        → las fotos de las remeras
+
+
+1. ANTES DE SUBIRLA: CARGÁ TUS DATOS
+------------------------------------
+Abrí app.js con cualquier editor de texto (Bloc de notas sirve) y cambiá solo la parte de arriba:
+
+- whatsapp: tu número en formato internacional, sin espacios ni "+".
+  Ejemplo: "5493511234567"  (549 + código de área sin 0 + número sin 15)
+- proximoDrop: la fecha y hora del próximo lanzamiento.
+- En PRODUCTOS, por cada remera:
+    precio:  ej. "$ 25.000"
+    quedan:  cuántas te quedan (si ponés 0, aparece como Agotado)
+    imagen:  el archivo de la carpeta img
+
+Para agregar una remera nueva: copiá una línea de PRODUCTOS, cambiale los datos
+y poné la foto en la carpeta img con el mismo nombre que escribiste.
+
+En index.html también podés completar los textos entre corchetes [ ]:
+la sección "Sobre Haze", la tabla de talles y las preguntas frecuentes.
+
+
+2. SUBIRLA A INTERNET GRATIS (5 minutos)
+----------------------------------------
+Opción más fácil, Netlify Drop:
+  1. Entrá a app.netlify.com/drop
+  2. Arrastrá la carpeta haze-web entera a la página.
+  3. Te da un link al instante (algo como haze-123.netlify.app).
+  4. Creá una cuenta gratis para que el link no se borre y para cambiarle el nombre.
+
+Para actualizarla después: en Netlify entrás a tu sitio, "Deploys", y arrastrás la carpeta de nuevo.
+
+Otras opciones gratis: Vercel o GitHub Pages.
+
+Dominio propio (opcional): podés comprar haze.com.ar o similar en NIC Argentina
+y conectarlo desde la configuración de Netlify ("Domain management").
+
+
+3. PARA VERLA EN TU COMPU
+-------------------------
+Hacé doble clic en index.html y se abre en el navegador.
+
+
+Importante
+----------
+- El formulario de "Avisame del próximo drop" abre WhatsApp para que la persona
+  te mande su contacto; no guarda datos en ningún lado.
+- Antes de vender, revisá precios, stock, talles y el botón de arrepentimiento
+  que exige la ley argentina para ventas online.
